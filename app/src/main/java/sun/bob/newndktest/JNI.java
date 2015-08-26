@@ -1,4 +1,4 @@
-package main.newndktest;
+package sun.bob.newndktest;
 
 /**
  * Created by bob.sun on 15/8/24.

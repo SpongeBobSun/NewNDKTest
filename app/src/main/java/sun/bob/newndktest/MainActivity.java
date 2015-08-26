@@ -1,4 +1,4 @@
-package main.newndktest;
+package sun.bob.newndktest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,13 +6,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import main.newndktest.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ((TextView) findViewById(R.id.id_textview)).setText(main.newndktest.JNI.sayMyName());
+        ((TextView) findViewById(R.id.id_textview)).setText(JNI.sayMyName());
     }
 
     @Override

@@ -27,7 +27,7 @@ model {
             main{
                 java {
                     source{
-                        srcDir 'src'
+                        srcDir 'src/main/java'
                     }
                 }
             }
