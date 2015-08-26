@@ -1,4 +1,4 @@
-package sun.bob.newndktest;
+package main.newndktest;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
